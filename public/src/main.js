@@ -9,10 +9,9 @@ localStorage.setItem(
   "MyResume",
   JSON.stringify([
     {
-      year: "",
-      description: "",
+      year: "2018",
+      description: "NSC",
       skills: "",
-      socialicon: "",
     },
   ])
 );
@@ -25,31 +24,31 @@ localStorage.setItem(
       name: "Megan Alexander",
       contact: "",
       image: "https://postimg.cc/bZm040dH",
-      id: "",
+      id: "1",
     },
     {
       name: "Kauthar Dreyer",
       contact: "",
       image: "https://postimg.cc/34mvr2rq",
-      id: "",
+      id: "2",
     },
     {
       name: "Mellisa Mullins",
       contact: "",
       image: "https://postimg.cc/CRnD6yTY",
-      id: "",
+      id: "3",
     },
     {
       name: "Chipo Saidi",
       contact: "",
       image: "https://postimg.cc/bDmswLc3",
-      id: "",
+      id: "4",
     },
     {
       name: "Abigail Temm",
       contact: "",
       image: "https://postimg.cc/zHLXXrkG",
-      id: "",
+      id: "5",
     },
   ])
 );
@@ -59,7 +58,7 @@ localStorage.setItem(
   JSON.stringify([
     {
       link: "",
-      projname: "",
+      projname: "EOMP",
       pic: "",
     },
   ])
