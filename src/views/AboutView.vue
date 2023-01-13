@@ -1,5 +1,6 @@
 <template>
   <div class="about" id="ab">
+    <img src="../assets/IMG-20210925-WA0022.jpg">
     <h1>About Me</h1>
     <p>
       My present career aim is to work within an organization where I'm able to
@@ -22,6 +23,12 @@
  </Script>
 
 <style scoped>
+img{
+  height: 350px;
+  width:280px;
+  border-radius: 50%;
+  margin-right: 240px;
+}
 .about {
   margin-top: 100px;
   margin-left: 380px;
