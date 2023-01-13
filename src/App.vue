@@ -15,8 +15,7 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: left;
-  color: #2c3e50;
+  text-align: right;
 }
 
 nav {
@@ -39,7 +38,7 @@ nav a {
 }
 
 nav a.router-link-exact-active {
-  color: seagreen;
+  color: black;
   background: tan;
 }
 </style>

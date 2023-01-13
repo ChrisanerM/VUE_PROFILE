@@ -1,0 +1,82 @@
+[debug] [2023-01-13T07:32:47.219Z] ----------------------------------------------------------------------
+[debug] [2023-01-13T07:32:47.222Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-01-13T07:32:47.223Z] CLI Version:   11.20.0
+[debug] [2023-01-13T07:32:47.224Z] Platform:      win32
+[debug] [2023-01-13T07:32:47.224Z] Node Version:  v16.17.1
+[debug] [2023-01-13T07:32:47.226Z] Time:          Fri Jan 13 2023 09:32:47 GMT+0200 (South Africa Standard Time)
+[debug] [2023-01-13T07:32:47.226Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-13T07:32:47.386Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-13T07:32:47.387Z] > authorizing via signed-in user (chrisanermatthys04@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\admin\vue_portfolio
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-01-13T07:33:10.672Z] Using project from CLI flag: vueport2023
+[debug] [2023-01-13T07:33:10.676Z] > refreshing access token with scopes: []
+[debug] [2023-01-13T07:33:10.679Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-01-13T07:33:10.680Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-01-13T07:33:11.272Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-01-13T07:33:11.272Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-01-13T07:33:11.296Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/vueport2023 [none]
+[debug] [2023-01-13T07:33:11.894Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/vueport2023 200
+[debug] [2023-01-13T07:33:11.894Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/vueport2023 {"projectId":"vueport2023","projectNumber":"318070624683","displayName":"Vueport2023","name":"projects/vueport2023","resources":{"hostingSite":"vueport2023"},"state":"ACTIVE","etag":"1_11b42c22-b188-4950-9a44-d36d6256a031"}
+[info] i  Using project vueport2023 (Vueport2023) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-01-13T07:33:56.173Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-01-13T07:33:56.441Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-01-13T07:33:56.441Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.15.0","browserURL":"https://www.gstatic.com/firebasejs/9.15.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.15.0/firebase.tgz"},"live":{"version":"9.15","browserURL":"https://www.gstatic.com/firebasejs/live/9.15/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.15/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.15.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.15.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.15.0/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.15.0/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.15.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.15.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.15.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.15.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.15.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.15.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.15.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore.memory.js"}}
+[info] +  Wrote dist/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\admin\vue_portfolio 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=251436804&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-01-13T07:34:00.594Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-01-13T07:34:00.594Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-01-13T07:34:01.442Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-01-13T07:34:01.442Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-01-13T07:34:01.459Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-01-13T07:34:02.440Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-01-13T07:34:02.441Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"ChrisanerM","id":114674807,"node_id":"U_kgDOBtXMdw","avatar_url":"https://avatars.githubusercontent.com/u/114674807?v=4","gravatar_id":"","url":"https://api.github.com/users/ChrisanerM","html_url":"https://github.com/ChrisanerM","followers_url":"https://api.github.com/users/ChrisanerM/followers","following_url":"https://api.github.com/users/ChrisanerM/following{/other_user}","gists_url":"https://api.github.com/users/ChrisanerM/gists{/gist_id}","starred_url":"https://api.github.com/users/ChrisanerM/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ChrisanerM/subscriptions","organizations_url":"https://api.github.com/users/ChrisanerM/orgs","repos_url":"https://api.github.com/users/ChrisanerM/repos","events_url":"https://api.github.com/users/ChrisanerM/events{/privacy}","received_events_url":"https://api.github.com/users/ChrisanerM/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":16,"public_gists":0,"followers":0,"following":0,"created_at":"2022-09-29T14:00:34Z","updated_at":"2022-12-20T08:13:52Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":26107,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as ChrisanerM 
+[info] 
+[debug] [2023-01-13T07:34:41.328Z] >>> [apiv2][query] GET https://api.github.com/repos/ChrisanerM/VUE_PORTFOLIO/actions/secrets/public-key type=owner
+[debug] [2023-01-13T07:34:42.121Z] <<< [apiv2][status] GET https://api.github.com/repos/ChrisanerM/VUE_PORTFOLIO/actions/secrets/public-key 404
+[debug] [2023-01-13T07:34:42.121Z] <<< [apiv2][body] GET https://api.github.com/repos/ChrisanerM/VUE_PORTFOLIO/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2023-01-13T07:34:55.957Z] >>> [apiv2][query] GET https://api.github.com/repos/ChrisanerM/VUE_PROFILE/actions/secrets/public-key type=owner
+[debug] [2023-01-13T07:34:58.074Z] <<< [apiv2][status] GET https://api.github.com/repos/ChrisanerM/VUE_PROFILE/actions/secrets/public-key 200
+[debug] [2023-01-13T07:34:58.074Z] <<< [apiv2][body] GET https://api.github.com/repos/ChrisanerM/VUE_PROFILE/actions/secrets/public-key {"key_id":"568250167242549743","key":"dMr97FxKSEwb1XBRW1/Su+Pp7Kx4XIA/z+3ga3nHFXA="}
+[debug] [2023-01-13T07:34:58.076Z] >>> [apiv2][query] GET https://api.github.com/repos/ChrisanerM/VUE_PROFILE [none]
+[debug] [2023-01-13T07:34:58.940Z] <<< [apiv2][status] GET https://api.github.com/repos/ChrisanerM/VUE_PROFILE 200
+[debug] [2023-01-13T07:34:58.940Z] <<< [apiv2][body] GET https://api.github.com/repos/ChrisanerM/VUE_PROFILE {"id":588088593,"node_id":"R_kgDOIw2FEQ","name":"VUE_PROFILE","full_name":"ChrisanerM/VUE_PROFILE","private":false,"owner":{"login":"ChrisanerM","id":114674807,"node_id":"U_kgDOBtXMdw","avatar_url":"https://avatars.githubusercontent.com/u/114674807?v=4","gravatar_id":"","url":"https://api.github.com/users/ChrisanerM","html_url":"https://github.com/ChrisanerM","followers_url":"https://api.github.com/users/ChrisanerM/followers","following_url":"https://api.github.com/users/ChrisanerM/following{/other_user}","gists_url":"https://api.github.com/users/ChrisanerM/gists{/gist_id}","starred_url":"https://api.github.com/users/ChrisanerM/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ChrisanerM/subscriptions","organizations_url":"https://api.github.com/users/ChrisanerM/orgs","repos_url":"https://api.github.com/users/ChrisanerM/repos","events_url":"https://api.github.com/users/ChrisanerM/events{/privacy}","received_events_url":"https://api.github.com/users/ChrisanerM/received_events","type":"User","site_admin":false},"html_url":"https://github.com/ChrisanerM/VUE_PROFILE","description":null,"fork":false,"url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE","forks_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/forks","keys_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/keys{/key_id}","collaborators_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/teams","hooks_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/hooks","issue_events_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/issues/events{/number}","events_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/events","assignees_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/assignees{/user}","branches_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/branches{/branch}","tags_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/tags","blobs_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/git/refs{/sha}","trees_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/git/trees{/sha}","statuses_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/statuses/{sha}","languages_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/languages","stargazers_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/stargazers","contributors_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/contributors","subscribers_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/subscribers","subscription_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/subscription","commits_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/commits{/sha}","git_commits_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/git/commits{/sha}","comments_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/comments{/number}","issue_comment_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/issues/comments{/number}","contents_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/contents/{+path}","compare_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/compare/{base}...{head}","merges_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/merges","archive_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/downloads","issues_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/issues{/number}","pulls_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/pulls{/number}","milestones_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/milestones{/number}","notifications_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/labels{/name}","releases_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/releases{/id}","deployments_url":"https://api.github.com/repos/ChrisanerM/VUE_PROFILE/deployments","created_at":"2023-01-12T09:50:51Z","updated_at":"2023-01-12T11:48:38Z","pushed_at":"2023-01-12T12:49:54Z","git_url":"git://github.com/ChrisanerM/VUE_PROFILE.git","ssh_url":"git@github.com:ChrisanerM/VUE_PROFILE.git","clone_url":"https://github.com/ChrisanerM/VUE_PROFILE.git","svn_url":"https://github.com/ChrisanerM/VUE_PROFILE","homepage":null,"size":2005,"stargazers_count":0,"watchers_count":0,"language":"Vue","has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"has_discussions":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":null,"allow_forking":true,"is_template":false,"web_commit_signoff_required":false,"topics":[],"visibility":"public","forks":0,"open_issues":0,"watchers":0,"default_branch":"main","permissions":{"admin":true,"maintain":true,"push":true,"triage":true,"pull":true},"temp_clone_token":"","allow_squash_merge":true,"allow_merge_commit":true,"allow_rebase_merge":true,"allow_auto_merge":false,"delete_branch_on_merge":false,"allow_update_branch":false,"use_squash_pr_title_as_default":false,"squash_merge_commit_message":"COMMIT_MESSAGES","squash_merge_commit_title":"COMMIT_OR_PR_TITLE","merge_commit_message":"PR_TITLE","merge_commit_title":"MERGE_MESSAGE","security_and_analysis":{"secret_scanning":{"status":"disabled"},"secret_scanning_push_protection":{"status":"disabled"}},"network_count":0,"subscribers_count":1}
+[debug] [2023-01-13T07:34:58.943Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/vueport2023/serviceAccounts [none]
+[debug] [2023-01-13T07:34:58.944Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/vueport2023/serviceAccounts {"accountId":"github-action-588088593","serviceAccount":{"displayName":"GitHub Actions (ChrisanerM/VUE_PROFILE)","description":"A service account with permission to deploy to Firebase Hosting for the GitHub repository ChrisanerM/VUE_PROFILE"}}
