@@ -1,6 +1,6 @@
 <template>
   <form action="https://formspree.io/f/xqkokror" method="post">
-    
+<div class="container">   
     <div class="contact">
       <h5>I'D LOVE YOU KEEP IN TOUCH!</h5>
       <label for="name">Name</label>
@@ -35,6 +35,7 @@
       ></textarea>
       <button>Submit</button>
     </div>
+    </div>
   </form>
 </template>
 
@@ -45,11 +46,12 @@ export default {};
 <style scoped>
 .contact {
   display: grid;
+  width:50%;
   background-color: lightsalmon;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 20px;
   padding: 25px;
-  margin-left: 510px;
+  margin-left: 300px;
   margin-right: 510px;
   margin-top: 50px;
   text-align: center;
