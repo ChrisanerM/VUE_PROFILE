@@ -28,11 +28,12 @@ img{
   width:280px;
   border-radius: 50%;
   margin-right: 240px;
+  margin-top:20px;
 }
 .about {
   margin-top: 100px;
-  margin-left: 380px;
-  margin-right: 380px;
+  margin-left: 390px;
+  margin-right: 390px;
   padding: 1px;
 }
 #ab {
