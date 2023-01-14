@@ -7,10 +7,6 @@
     <router-link to="/testimonials">Testimonials</router-link> 
     <router-link to="/contact">Contact</router-link>
   </nav>
-
-  <div class="foot" id="copyright">
-    <p>© 2022 Chrisaner Matthys 🐞</p>
-  </div>
   <router-view />
 </template>
 
