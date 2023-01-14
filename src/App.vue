@@ -7,6 +7,10 @@
     <router-link to="/testimonials">Testimonials</router-link> 
     <router-link to="/contact">Contact</router-link>
   </nav>
+
+  <div class="foot" id="copyright">
+    <p>© 2022 Chrisaner Matthys 🐞</p>
+  </div>
   <router-view />
 </template>
 
@@ -50,5 +54,11 @@ nav a {
 nav a.router-link-exact-active {
   color: black;
   background: tan;
+}
+#copyright{
+  background-color: lightcyan;
+  position:absolute;
+  top: 850px;
+  margin-left: 600px;
 }
 </style>
