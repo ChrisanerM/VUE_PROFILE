@@ -53,7 +53,7 @@ data(){
             },
             {name:'Xolelwa Manqina',
             title:'Colleague',
-            img:'https://postimg.cc/q6x57Mz3',
+            img:'https://i.postimg.cc/GhF4d9RG/Xolelwa-Manqina.jpg',
             test:'Chrisaner is a hard-working and strong individual that ensures that she understands something completely before implementing it. She has a great personality. Her ability to assess an issue and solve it, is really good and she strives to reach perfection in her work.',
             }
         ]
