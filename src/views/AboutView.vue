@@ -27,7 +27,7 @@ img{
   height: 350px;
   width:280px;
   border-radius: 50%;
-  margin-right: 240px;
+  margin-right: 225px;
   margin-top:20px;
 }
 .about {

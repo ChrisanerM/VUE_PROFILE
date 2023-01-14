@@ -1,8 +1,8 @@
 <template>
   <h2>Testimonials</h2>
-<dim v class="container" style="display:inline-block;">
+<dim v class="container" id="test" style="display:inline-block;">
 <div class="row justify-content-center cols-3">
- <div class="flip-card" style="background-color: violet;border:solid; border-color:black;" v-for="item in testimonials">
+ <div class="flip-card" style="background-color: tan;border:solid 4px;border-radius:12px; border-color:brown;" v-for="item in testimonials">
     <div class="flip-card-inner">
      <div class="flip-card-front">
         <img
@@ -36,25 +36,25 @@ data(){
             img:'https://i.postimg.cc/3RbCBZs3/dreyer.jpg',
             test: "She's a kind, loving and friendly individual whom you may always ask help for."
             },
-            {name:'Mellisa Mulllins',
-            title:'Ex-colleague',
-            img:'https://i.postimg.cc/wj0VMHwt/mullins-jpg.jpg',
-            test:' A well mannered individual, always up for new challenges. She sets out goals & works hard to achieve them.'
-            },
-            {name:'Chipo Saidi',
-            title:'Ex-colleague',
-            img:'https://i.postimg.cc/kGm8whj3/Saidi-jpg.jpg',
-            test:'Has the intelligence & work ethic to add value wherever she is.'
-            },
             {name:'Abigail Temm',
             title:'Ex-colleague',
             img:'https://i.postimg.cc/T10y02Lg/temm-jpg.jpg',
             test:'Always prepared for the day and ensures all tasks are completed to the best of her abiliy.'
             },
+            {name:'Beyonce Leonards',
+            title:'Colleague',
+            img:'https://i.postimg.cc/kGJnx0f4/Beyonce-Leonards.jpg',
+            test:' A well mannered individual, always up for new challenges. She sets out goals & works hard to achieve them.'
+            },
+            {name:'Zoe Daniels',
+            title:'Colleague',
+            img:'https://i.postimg.cc/447DKFWQ/Zoe-Daniels.jpg',
+            test:' Its just amazing to work with such a kind personality. I highly recommend Chrisaner Matthys  for any position or endeavor that she may pursue. She would be a valueable asset to your company'
+            },
             {name:'Xolelwa Manqina',
             title:'Colleague',
             img:'https://i.postimg.cc/GhF4d9RG/Xolelwa-Manqina.jpg',
-            test:'Chrisaner is a hard-working and strong individual that ensures that she understands something completely before implementing it. She has a great personality. Her ability to assess an issue and solve it, is really good and she strives to reach perfection in her work.',
+            test:'Chrisaner is a hard-working and strong individual that ensures she understands something completely before implementing it. She has the ability to assess an issue and solve it, she strives to perfection in her work.',
             }
         ]
     }
@@ -67,7 +67,7 @@ background-color: transparent;
 width: 300px;
 height: 300px;
 perspective: 1000px;
-margin: 20px;
+margin: 40px;
 }
 /* This container is needed to position the front and back side */
 .flip-card-inner {
@@ -92,15 +92,15 @@ backface-visibility: hidden;
 border: 1cm;
 border-color: solid black;
 }
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-background-color:violet;
-color: black;
-}
 /* Style the back side */
 .flip-card-back {
-background-color: violet;
+background-color: burlywood;
 color: black;
 transform: rotateY(180deg);
+font-size: 15px;
+}
+
+h2{
+  text-align: center;
 }
 </style>
