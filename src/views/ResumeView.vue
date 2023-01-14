@@ -41,9 +41,27 @@ data(){
 }
 </script>
 <style scoped>
+h2{
+  text-align: center;
+}
 #info{
+  margin-top: 50px;
   width: 60%;
-  margin-right:150px;
+  margin-right:270px;
 }
 
+h1{
+  font-size: 28px;
+  text-align:center;
+  
+}
+h4{
+  font-size: 28px;
+  text-align:center;
+}
+
+p{
+  
+  text-align:center;
+}
 </style>
