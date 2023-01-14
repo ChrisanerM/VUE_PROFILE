@@ -10,6 +10,16 @@
   <router-view />
 </template>
 
+<script>
+import Footer from './components/FooterPage.vue'
+
+export default {
+  name: 'app',
+  components:{
+    Footer
+  }
+}
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
