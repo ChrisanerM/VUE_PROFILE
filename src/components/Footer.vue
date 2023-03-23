@@ -1,15 +1,17 @@
 <template>
-
-    <footer id="foot">
-        <h6 class="text-center">&copy; 2022 Chrisaner Matthys 🐞</h6>
-    </footer>
-
+<footer>
+    <p>{{ footerWords }}</p>
+</footer>
     
 </template>
 
 <script>
 export default {
-    name: 'Footer',
+    data (){
+        return{
+            footerWords: '© 2022 Chrisaner Matthys 🐞'
+        }
+    }
   }
 </script>
 
@@ -17,6 +19,7 @@ export default {
 #foot{
     background-color: black;
     color: white;
+    padding:10px;
 }
 
 </style>

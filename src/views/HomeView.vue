@@ -41,10 +41,9 @@ img {
 
 .text-block{
   position:absolute;
-  width: 550px;
+  width: 450px;
   top: 150px;
   bottom: 380px;
-  left: 10px;
   padding: 5px; 
   color: black;
   font-family:Georgia, 'Times New Roman', Times, serif;

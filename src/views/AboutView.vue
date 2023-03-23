@@ -24,13 +24,14 @@
 
 <style scoped>
 img{
-  height: 350px;
+  height: 340px;
   width:280px;
+  margin-left: 270px;
   border-radius: 50%;
-  margin-right: 225px;
   margin-top:20px;
 }
 .about {
+  display: grid;
   margin-top: 100px;
   margin-left: 390px;
   margin-right: 390px;
@@ -39,6 +40,8 @@ img{
 #ab {
   background-color: rgb(103, 83, 57);
   border-radius: 20px;
+  width:60%;
+  margin-left: 280px;
 }
 h1 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -55,7 +58,7 @@ p {
   font-style: oblique;
   font-size: 17px;
   margin-left: 10px;
-  margin-right: 18px;
+  margin-right: 10px;
   margin-bottom: 40px;
   text-align: center;
 }

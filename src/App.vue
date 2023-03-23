@@ -51,4 +51,10 @@ nav a.router-link-exact-active {
   color: black;
   background: tan;
 }
+#copyright{
+  background-color: lightcyan;
+  position:absolute;
+  top: 850px;
+  margin-left: 600px;
+}
 </style>
