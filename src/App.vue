@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import Footer from './components/FooterPage.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'app',
