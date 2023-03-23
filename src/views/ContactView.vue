@@ -46,12 +46,12 @@ export default {};
 <style scoped>
 .contact {
   display: grid;
-  background-color: lightsalmon;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #f7f2cd;
+  font-weight:100;
   font-size: 20px;
   padding: 25px;
-  margin-left: 510px;
-  margin-right: 510px;
+  height: 80vh;
+  margin-left:250px;
   margin-top: 50px;
   text-align: center;
   border-radius: 15px;

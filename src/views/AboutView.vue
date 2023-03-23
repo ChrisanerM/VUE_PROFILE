@@ -26,7 +26,7 @@
 img{
   height: 340px;
   width:280px;
-  margin-left: 270px;
+  margin-left: 300px;
   border-radius: 50%;
   margin-top:20px;
 }
